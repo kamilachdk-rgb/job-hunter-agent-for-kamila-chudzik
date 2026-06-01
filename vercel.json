@@ -1,15 +1,5 @@
 {
   "framework": "nextjs",
   "buildCommand": "npm run build",
-  "outputDirectory": ".next",
-  "env": {
-    "GEMINI_API_KEY": "@gemini_api_key",
-    "GMAIL_USER": "@gmail_user",
-    "GMAIL_APP_PASSWORD": "@gmail_app_password"
-  },
-  "functions": {
-    "app/api/**": {
-      "maxDuration": 30
-    }
-  }
+  "outputDirectory": ".next"
 }
